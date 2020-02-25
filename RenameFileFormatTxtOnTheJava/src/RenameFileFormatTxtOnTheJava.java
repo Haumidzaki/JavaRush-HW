@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class RenameFileFormatTxtOnTheJava {
     private List<File> files;
-    private static final String endFile = ".java";
+    private static final String ENDFILE = ".java";
 
 
     public RenameFileFormatTxtOnTheJava() {
