@@ -39,6 +39,6 @@ public class RenameFileFormatTxtOnTheJava {
         String nameFile = file.getName();
         Path path = file.toPath().getParent();
         String [] text = nameFile.split("\\.");
-        file.renameTo(new File(path + "\\" + text[0] + endFile));
+        file.renameTo(new File(path + "\\" + text[0] + ENDFILE));
     }
 }
