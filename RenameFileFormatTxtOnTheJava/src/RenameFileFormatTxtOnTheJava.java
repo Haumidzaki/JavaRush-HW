@@ -24,7 +24,7 @@ public class RenameFileFormatTxtOnTheJava {
         files.forEach(File -> RenameFormatFile(File));
     }
 
-    public void ScannerFile(File dir){
+    public void scannerFile(File dir){
             File[] listFiles = dir.listFiles();
             for (File file : listFiles){
                if(file.isDirectory()){
@@ -35,7 +35,7 @@ public class RenameFileFormatTxtOnTheJava {
             }
     }
 
-    public void RenameFormatFile(File file){
+    public void renameFormatFile(File file){
         String nameFile = file.getName();
         Path path = file.toPath().getParent();
         String [] text = nameFile.split("\\.");
