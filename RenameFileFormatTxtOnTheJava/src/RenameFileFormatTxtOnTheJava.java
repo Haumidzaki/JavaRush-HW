@@ -28,7 +28,7 @@ public class RenameFileFormatTxtOnTheJava {
             File[] listFiles = dir.listFiles();
             for (File file : listFiles){
                if(file.isDirectory()){
-                ScannerFile(file);
+                scannerFile(file);
                }else {
                    files.add(file);
                }
