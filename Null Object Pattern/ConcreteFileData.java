@@ -1,4 +1,3 @@
-package com.javarush.task.task31.task3107;
 
 public class ConcreteFileData implements FileData {
 
