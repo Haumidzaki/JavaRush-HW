@@ -1,4 +1,3 @@
-package com.javarush.task.task31.task3107;
 
 import java.io.IOException;
 import java.nio.file.Files;
